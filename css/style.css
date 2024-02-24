@@ -163,6 +163,14 @@ section{
 
 /* Main-Section-css-ends */
 
+/* scrolleffect */
+
+header.sticky{
+    background-color: var(--primary);
+    padding: 20px 10%;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+
 /* About-us-css-starts */
 .up-center-text h2{
     text-align: center;
