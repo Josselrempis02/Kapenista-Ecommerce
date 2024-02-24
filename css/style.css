@@ -172,38 +172,100 @@ header.sticky{
 }
 
 /* About-us-css-starts */
-.up-center-text h2{
+.about-us-text h2{
     text-align: center;
     color: var(--text);
-    font-size: 25px;
+    font-size: 45px;
     text-transform: capitalize;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+    
+}
+.about-us-text img{
+    margin-bottom: 20px;
 }
 
-.cart img{
-    width: 400px;
-    height: auto;
-    border-radius: 10px;
-}
 
-.update-1{
+.about-us .about-us-1{
    display: flex;
+   align-items: center;
+   flex-wrap: wrap;
    gap: 2rem;
    text-transform: capitalize;
 }
 
-.update-1 h5{
+.about-us .about-us-1 .cart{
+    flex: 1 1 45rem;
+}
+
+.about-us .about-us-1 .cart img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.about-us .about-us-1 .text{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.about-us-1 h5{
     font-size: 25px;
 }
-.update-1 h4{
+.about-us-1 h4{
     font-size: 25px;
     padding-bottom: 10px;
     
 }
-.update-1 p{
+.about-us-1 p{
     font-size: 20px;
+    line-height: 1.8;
     
 }
 
+
 /* About-us-css-ends */
+
+
+/* menu-css-starts */
+
+.center-text h2{
+    text-align: center;
+    color: var(--text);
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+}
+
+.center-text img{
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 2rem;
+}
+
+.row{
+    position: relative;
+    transition: all .40s;
+}
+
+.row img{
+    width: 100%;
+    height: auto;
+    transition:  all .40s;
+    border-radius: 10px;
+}
+
+.row h5{
+    text-align: center;
+}
+
+.price p{
+    text-align: center;
+}
+/* menu-css-ends */
