@@ -15,6 +15,7 @@
     --hover: #DB975F;
     --red: #F84E4E;
     --green: #009406;
+    --background-color: #e2e2e2;
 
 }
 /* Header-css-starts */
@@ -256,16 +257,84 @@ header.sticky{
 
 .row img{
     width: 100%;
-    height: auto;
+    height: 80vh;
     transition:  all .40s;
     border-radius: 10px;
+    background-color: var(--background-color);
+    margin-bottom: 10px;
+}
+
+.row img:hover{
+    transform: scale(0.9);
 }
 
 .row h5{
     text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .price p{
     text-align: center;
+    font-size: 16px;
+    font-weight: 600;
 }
+
+.button1 {
+    display: block;
+    margin: 30px auto;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-radius: 66px ;
+    padding: 20px 20px 20px 20px;
+    width: 20%;
+    background-color: transparent;
+    border: solid 2px var(--hover);
+  }
+
+.button1:hover{
+    background-color: var(--hover);
+    color: var(--primary);
+}
+
+
 /* menu-css-ends */
+
+/* Contact-css-starts */
+
+.contact .row1{
+    display: flex;
+    background: var(--primary);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact .row1 .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row1 form{
+    flex: 1 1 45rem;
+}
+
+.contact .row1 form h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: var(--text);
+
+}
+
+.contact .row1 form inputbox{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: var(--text);
+}
+
+.contact .row1 form inputbox
+
+/* Contact-css-endss */
