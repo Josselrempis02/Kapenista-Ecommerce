@@ -32,7 +32,7 @@ header{
 }
 
 .logo img{
-    max-width: 120px;
+    max-width: 200px;
     height: auto;
 
 }
@@ -43,7 +43,7 @@ header{
 
 .nav-menu a{
     color: var(--text);
-    font-size: 16px;
+    font-size: 20px;
     text-transform: capitalize;
     padding: 10px 20px;
     font-weight: 500;
@@ -373,3 +373,36 @@ form h3{
   }
 
 /* Contact-css-endss */
+
+/* footer-css-starts */
+.footer{
+    background-color: var(--background-color);
+}
+.footer-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 3rem;
+}
+
+.first-info img{
+    width: 140px;
+    height: auto;
+}
+
+.footer-info h4{
+    color: var(--text);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px ;
+}
+
+.footer-info p{
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .42s;
+}
