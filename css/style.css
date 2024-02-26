@@ -283,11 +283,11 @@ header.sticky{
 .button1 {
     display: block;
     margin: 30px auto;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: capitalize;
     border-radius: 66px ;
     padding: 20px 20px 20px 20px;
-    width: 20%;
+    width: 250px;
     background-color: transparent;
     border: solid 2px var(--hover);
   }
@@ -302,39 +302,74 @@ header.sticky{
 
 /* Contact-css-starts */
 
-.contact .row1{
+.contact1{
     display: flex;
     background: var(--primary);
     flex-wrap: wrap;
     gap: 1rem;
 }
 
-.contact .row1 .map{
+.map{
     flex: 1 1 45rem;
     width: 100%;
     object-fit: cover;
 }
 
-.contact .row1 form{
+form{
     flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
 }
 
-.contact .row1 form h3{
+form h3{
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 40px;
     color: var(--text);
+    text-align: center;
 
 }
-
-.contact .row1 form inputbox{
+.inputbox{
     display: flex;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     background: transparent;
     border: var(--text);
+    position: relative;
+      width: 100%;
 }
 
-.contact .row1 form inputbox
+.inputbox span{
+    color: var(--text);
+    font-size: 2rem;
+    padding-left: 2rem;
+
+ }
+
+ .inputbox input{
+    width: 100%;
+    padding: 2rem 5rem 2rem 5rem;
+    font-size: 1.7rem;
+    color: var(--text);
+    text-transform: none;
+    background: none;
+ }
+
+ 
+ .inputbox .fas {
+    position: absolute;
+    top: 50%;
+    left: 0; /* Adjust as needed */
+    transform: translateY(-50%);
+    color:var(--text) /* Adjust icon color */
+  }
+
+  .inputbox .fa-solid {
+    position: absolute;
+    top: 50%;
+    left: 0; /* Adjust as needed */
+    transform: translateY(-50%);
+    color:var(--text) /* Adjust icon color */
+  }
 
 /* Contact-css-endss */
