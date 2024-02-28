@@ -206,7 +206,7 @@ header.sticky{
 }
 
 .about-us .about-us-1 .text{
-    flex: 1 1 45rem;
+    flex: 1 1 30rem;
     padding: 2rem;
 }
 
@@ -316,7 +316,7 @@ header.sticky{
 }
 
 form{
-    flex: 1 1 45rem;
+    flex: 1 1 30rem;
     padding: 5rem 2rem;
     text-align: center;
 }
@@ -341,7 +341,7 @@ form h3{
 
 .inputbox span{
     color: var(--text);
-    font-size: 2rem;
+    font-size: 20px;
     padding-left: 2rem;
 
  }
@@ -349,7 +349,7 @@ form h3{
  .inputbox input{
     width: 100%;
     padding: 2rem 5rem 2rem 5rem;
-    font-size: 1.7rem;
+    font-size: 14px;
     color: var(--text);
     text-transform: none;
     background: none;
