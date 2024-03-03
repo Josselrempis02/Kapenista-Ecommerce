@@ -18,7 +18,7 @@
     --background-color: #e2e2e2;
 
 }
-/* Header-css-starts */
+/* Header-css-starts  */
 header{
     position: fixed;
     width: 100%;
@@ -32,7 +32,7 @@ header{
 }
 
 .logo img{
-    max-width: 140px;
+    max-width: 120px;
     height: auto;
 
 }
@@ -60,7 +60,7 @@ header{
 
 .nav-icon{
     display: flex;
-    align-items: center;
+    
 }
 
 .nav-icon i{
@@ -73,7 +73,7 @@ header{
 
 
 #menu-icon{
-    font-size: 35px;
+    font-size: 30px;
     color: var(--text);
     z-index: 10001;
     cursor: pointer;
