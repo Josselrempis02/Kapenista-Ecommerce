@@ -380,6 +380,8 @@ form h3{
 /* footer-css-starts */
 .footer{
     background-color: var(--background-color);
+    
+    
 }
 .footer-info{
     display: grid;
@@ -437,6 +439,121 @@ form h3{
     text-transform: capitalize ;
 }
 
+/* Shop-css */
+
+.page-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+.shop-container {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 30px;
+}
+
+.product-categories {
+    display: flex;
+}
+
+.product-categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.product-categories ul li {
+    margin-right: 20px; /* Adjust spacing between categories */
+}
+
+.product-categories ul li:last-child {
+    margin-right: 0; /* Remove margin-right for the last category */
+}
+
+.product-categories ul li a {
+    text-decoration: none;
+    color: #000; /* Adjust link color */
+}
+
+.product-categories a:hover{
+    color: var(--hover);
+} 
+
+.shop-product {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .shop-product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%; /* Ensure it takes full width */
+  }
+  
+  .shop-product-row {
+    flex: 0  calc(25% - 20px); 
+    margin-bottom: 20px; 
+  }
+
+  .shop-product-text h5{
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .shop-product-price p{
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .add-to-cart {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+    
+  }
+  
+  .add-to-cart-button {
+    display: none;
+    opacity: 0;
+    border-radius: 2rem;
+    border: none;
+    font-size: 14px;
+    background-color: var(--hover);
+    color: var(--primary);
+    padding: 20px;
+    align-items: center;
+   
+  }
+  
+  .shop-product-row:hover .add-to-cart-button {
+    display: block;
+    opacity: 1;
+    
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 /* Responsive-css */
 
 @media(max-width:890px){
