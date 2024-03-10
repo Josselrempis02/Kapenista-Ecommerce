@@ -297,6 +297,7 @@ header.sticky{
     border: solid 2px var(--hover);
   }
 
+  
 .button1:hover{
     background-color: var(--hover);
     color: var(--primary);
@@ -561,51 +562,74 @@ form h3{
 
 /* product-details-css */
 
-
-
-
-
-
-.product-details-1{
-    display: flex;
-    justify-content: space-between;
-    padding: 60px 48px;
-    
-    
-}
-
-
-.product-details-1 img{
-    width: 100%;
-}
-
-.product-details-2{
-    margin: 0px 0px 0px 48px;
-}
-.product-details-2 h1{
-    font-family: "Playfair Display", serif;
-    font-size: 35px;
-    font-weight: 400;
-    margin-bottom: 40px;
-}
-
-
 .price-1{
-    
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 50px;
+    padding: 24px 0px 0px;
+    margin: 0px 0px 24px;
 }
 
+.desc{
+    font-size: 17px;
+    text-transform: capitalize;
+    line-height: 1.75em;
+    margin-bottom: 1.75rem;
+}
+
+.size{
+    display: flex;
+    flex-direction: column;
+}
+
+.size label{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+#select-size{
+    padding: 15px;
+    width: 200px;
+    font-size: 15px;
+    
+}
 .quantity input{
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 20px;
     align-items: center;
 }
 
-.quantity input[type=number]{
-    align-items: center;
+ input[type=number]{
+    width: 50px;
+    padding: 5px;
 }
+.addtocart{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button2{
+    margin-top: 50px;
+    display: inline-block;
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 2px solid var(--hover);
+    padding: 12px 25px;
+    background-color: transparent;
+    transition: all .42s ease;
+  }
+
+  .button2:hover{
+    color: var(--primary);
+    background-color: var(--hover);
+  }
+
 /* product-details-css */
 
   
