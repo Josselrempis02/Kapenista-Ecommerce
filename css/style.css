@@ -560,9 +560,10 @@ form h3{
 }
 
 /* Shop-css */
-.product-details{
+.product-details-1{
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 
@@ -574,7 +575,7 @@ form h3{
 .product-details-{
     margin: 0px 0px 0px 48px;
 }
-.product-details-right h1{
+.product-details-2 h1{
     font-family: "Playfair Display", serif;
     font-size: 35px;
     font-weight: 400;
@@ -584,29 +585,6 @@ form h3{
 
 /* product-details-css */
 
-.product-details-1{
-    display: flex;
-}
-
-
-.product-details-container{
-    display: flex;
-}
-
-.product-details-1 img{
-    max-width: 100%;
-    
-}
-
-.product-details-2{
-    margin: 0px 0px 0px 48px;
-}
-.product-details-2 h1{
-    font-family: "Playfair Display", serif;
-    font-size: 35px;
-    font-weight: 400;
-    
-}
 
 
 .price-1{
