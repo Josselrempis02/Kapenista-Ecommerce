@@ -560,6 +560,27 @@ form h3{
 }
 
 /* Shop-css */
+.product-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.product-details-1 img{
+    max-width: 100%;
+    
+}
+
+.product-details-{
+    margin: 0px 0px 0px 48px;
+}
+.product-details-right h1{
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    font-weight: 400;
+    
+}
+
 
 /* product-details-css */
 
