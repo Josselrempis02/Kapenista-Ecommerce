@@ -248,9 +248,10 @@ header.sticky{
 }
 
 .menu {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
-    gap: 2rem;
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+   width: 100%;
 }
 
 .row{
@@ -526,7 +527,7 @@ form h3{
     font-size: 16px;
     padding: 5px;
     font-family: "Playfair Display", serif;
-    font-weight: 400;
+    font-weight: 300;
   }
 
   .add-to-cart {
@@ -541,6 +542,7 @@ form h3{
   .add-to-cart-button  a{
     color: var(--hover);
     text-transform: uppercase;
+    letter-spacing: 1px;
   }
   
   .add-to-cart-button {
