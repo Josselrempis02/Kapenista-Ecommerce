@@ -560,10 +560,23 @@ form h3{
 }
 
 /* Shop-css */
+
+
+/* product-details-css */
+.product-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
 .product-details-1{
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
 }
 
 
@@ -583,7 +596,6 @@ form h3{
 }
 
 
-/* product-details-css */
 
 
 
@@ -655,6 +667,14 @@ form h3{
     background-color: var(--hover);
   }
 
+
+  .related-products-title{
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
 /* product-details-css */
 
   
