@@ -1,3 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --primary: white;
+    --text: black;
+    --hover: #DB975F;
+    --red: #F84E4E;
+    --green: #009406;
+    --background-color: #e2e2e2;
+
+}
+
 .cart-table {
     font-size: 0.9rem;
     font-weight: 400;
@@ -92,7 +113,67 @@ thead{
     font-size: 24px;
 }
 
-.cart-container{
+.cart-container {
+    display: flex;
+    justify-content: flex-end; 
+    
+}
+
+.cart-totals{
+    padding: 24px;
+    background-color: var(--background-color);
+    width: 40%;
+}
+
+.cart-totals h2{
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-weight: 400;
+    
+    margin: 24px 24px 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cancel-btn{
+    
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid var(--hover);
+    padding: 12px 25px;
+    transition: all .42s ease;
+}
+
+.cancel-btn:hover{
+    background-color: var(--hover);
+    color: var(--primary);
+
+}
+
+.checkout-btn{
+    
+    justify-content: center;
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid var(--hover);
+    padding: 12px 25px;
+    transition: all .42s ease;
+}
+
+.checkout-btn:hover{
+    background-color: var(--hover);
+    color: var(--primary);
+
+}
+
+.cart-btn{
     display: flex;
     justify-content: flex-end;
+    gap: 1rem;
 }
