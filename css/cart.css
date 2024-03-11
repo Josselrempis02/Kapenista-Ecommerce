@@ -28,7 +28,8 @@
  table th,
  table td {
 	border: 0;
-	border-top: 1px solid var(--text);
+	border-top: 1px solid #bbbbbc;
+    padding: 20px;
 	}
 
 .cart-table thead{
