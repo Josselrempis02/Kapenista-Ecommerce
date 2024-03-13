@@ -1,0 +1,34 @@
+.checkout-container {
+    width: 46%;
+    
+    padding: 24px;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 0 24px 0;
+    width: 100%;
+}
+
+.tr-border th{
+    font-weight: bold;
+}
+
+.checkout-review-order-table table th{
+    border: none;
+    padding: 6px 0;
+}
+.checkout-review-order-table  table td{
+    border-bottom: 1px solid #e0e0e0;
+    padding: 18px 0;
+}
+
+.product-total{
+    text-align: right;
+}
+
+.tr-border{
+    border: none;
+}
