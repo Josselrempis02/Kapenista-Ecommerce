@@ -31,4 +31,35 @@ table {
 
 .tr-border{
     border: none;
+    text-align: left
+}
+
+.tfoot th{
+    text-align: left;
+}
+
+.cart-subtotal-checkout {
+    text-align: right;
+}
+
+.tfoot td{
+    text-align: right;
+    font-weight: 400;
+}
+
+.order-total span{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.checkout-container table th{
+    border: none;
+}
+
+.checkout-container table tr{
+    border: none;
+}
+
+.checkout-container table td{
+    border: none;
 }
