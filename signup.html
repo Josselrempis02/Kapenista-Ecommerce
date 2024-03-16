@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/cart.css">
     <link rel="stylesheet" href="assets/css/checkout.css">
     <link rel="stylesheet" href="assets/css/login.css">
-    
+    <link rel="stylesheet" href="assets/css/signup.css">
    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +32,7 @@
         </ul>
 
         <div class="nav-icon">
-            <a href="/users/myaccount.html"><i class='bx bxs-user' ></i></a>
+            <a href=""><i class='bx bxs-user' ></i></a>
             <a href="cart.html"><i class='bx bxs-cart-alt'></i></a>
 
             <div class="bx bx-menu" id="menu-icon"></div>
@@ -44,27 +44,27 @@
     
     <!-- Login-Section-starts -->
 
-    <section class="login">
+    <section class="signup">
 
-        <div class="login-container">
-            <div class="login-image">
+        <div class="signup-container">
+            <div class="signup-image">
                 <img src="assets/img/about-us.jpg" alt="">
             </div>
 
-            <div class="login-form">
-                <h1>Log in</h1>
+            <div class="signup-form">
+                <h1>Create an account</h1>
                 <h2>Enter your details below</h2>
 
-                <form class="login-form-container" action="" method="post">
-                    
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                
-                    
+                <form class="signup-form-container" action="" method="post">
+                    <input type="name" id="name" name="name" placeholder="Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="tel" id="number" name="number" placeholder="Phone number" required>
+                    <input type="text" id="address" name="address" placeholder="Address" required>
                     <input type="password" id="password" name="password" placeholder="Enter your password" required>
                 
-                    <button class="login-btn" type="submit">Log in</button>
+                    <button class="signup-btn" type="submit">Create an account</button>
 
-                    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                    <p>Already have an account? <a href="login.html">Log in</a></p>
                 </form>
                 
             </div>

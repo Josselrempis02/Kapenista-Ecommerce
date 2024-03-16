@@ -164,24 +164,6 @@ thead{
 
 }
 
-.checkout-btn{
-    
-    justify-content: center;
-    color: var(--text);
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: capitalize;
-    border: 2px solid var(--hover);
-    background-color: var(--hover);
-    padding: 12px 25px;
-    transition: all .42s ease;
-}
-
-.checkout-btn:hover{
-    background-color: var(--hover);
-    color: var(--primary);
-
-}
 
 .cart-btn{
     display: flex;

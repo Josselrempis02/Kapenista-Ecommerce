@@ -18,14 +18,14 @@
     --background-color: #e2e2e2;
 
 }
-.login{
+.signup{
     padding: 0px;
 }
-.login-image{
+.signup-image{
     width: 100%;
 
 }
-.login-container{
+.signup-container{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -36,60 +36,60 @@
 
 
 
-.login-image img{
+.signup-image img{
     width: 100%;
     border-radius: 20px;
     
 }
 
-.login-form{
+.signup-form{
     width: 100%;
 }
 
-.login-form h1{
+.signup-form h1{
     font-size: 36px;
     font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
-.login-form h2{
+.signup-form h2{
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
 }
 
-.login-form-container{
+.signup-form-container{
     text-align: left ;
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 50%;
-    
+    padding: 20px 60px 0 0;
     
     
 }
 
-.login-form-container input{
+.signup-form-container input{
     padding: 15px;
     font-size: 15px;
     border: none;
     border-bottom: 1px solid rgb(145, 135, 135);
 }
 
-.login-form-container p{
+.signup-form-container p{
     text-align: center;
 }
 
-.login-form-container a{
+.signup-form-container a{
     padding-left: 5px;
     font-weight: 600;
 }
 
-.login-form-container a:hover{
+.signup-form-container a:hover{
     color: var(--hover);
 }
-.login-btn {
+.signup-btn {
     color: var(--text);
     font-size: 16px;
     font-weight: 500;
@@ -103,7 +103,7 @@
     margin-bottom: 20px;
 }
 
-.login-btn:hover{
+.signup-btn:hover{
     
     background-color: var(--hover);
     color: var(--primary);
