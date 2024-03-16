@@ -93,6 +93,7 @@ table {
     background-color: var(--hover);
     padding: 12px 25px;
     transition: all .42s ease;
+    border-radius: 5px;
 }
 
 .checkout-btn:hover{

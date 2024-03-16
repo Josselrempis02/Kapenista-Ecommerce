@@ -156,6 +156,7 @@ thead{
     background-color: #F84E4E;
     padding: 12px 25px;
     transition: all .42s ease;
+    border-radius: 5px;
 }
 
 .cancel-btn:hover{

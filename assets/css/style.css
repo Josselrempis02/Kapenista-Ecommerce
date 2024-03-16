@@ -133,6 +133,7 @@ section{
     border: 2px solid var(--hover);
     padding: 12px 25px;
     transition: all .42s ease;
+    border-radius: 5px;
 }
 
 .main-btn:hover{
@@ -672,6 +673,7 @@ form h3{
     padding: 12px 25px;
     background-color: transparent;
     transition: all .42s ease;
+    border-radius: 5px;
   }
 
   .button2:hover{
