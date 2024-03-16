@@ -34,6 +34,10 @@ table {
     text-align: left
 }
 
+.tr-border th{
+    font-weight: 700;
+}
+
 .tfoot th{
     text-align: left;
 }
