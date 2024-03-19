@@ -1,4 +1,19 @@
 /* Responsive-css */
+
+@media(max-width:2560px){
+    .shop-product-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        width: 100%;
+    }
+
+}
+
+
+
+
 @media(max-width:1500px){
     .about-us-1 p {
             text-align: justify;
@@ -177,6 +192,14 @@
         #menu-icon {
             display: inline-block;
         }
+
+        .shop-product-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            width: 100%;
+        }
     }
     
     @media(max-width:480px){
@@ -186,7 +209,14 @@
             gap: 10px; /
            
           }
-    
+          
+          .shop-product-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            width: 100%;
+        }
     
     }
     

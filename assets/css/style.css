@@ -453,6 +453,7 @@ form h3{
     font-size: 28px;
     text-transform: uppercase;
     padding: 50px;
+    margin-top: 50px;
 }
 
 .shop-container {
@@ -500,8 +501,7 @@ form h3{
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    width: 100%
-;
+    width: 100%;
     
    
   }
@@ -525,6 +525,7 @@ form h3{
     padding: 5px;
     font-family: "Playfair Display", serif;
     font-weight: 500;
+    width: 100%;
   }
 
   .shop-product-price p{
@@ -533,6 +534,7 @@ form h3{
     padding: 5px;
     font-family: "Playfair Display", serif;
     font-weight: 300;
+    width: 100%;
   }
 
   .add-to-cart {
