@@ -81,6 +81,8 @@
                 margin: 10px; /* Adjust margin as needed */
               }
     
+
+             
         
     }
     
@@ -195,7 +197,7 @@
 
         .shop-product-container {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             grid-column-gap: 20px;
             grid-row-gap: 20px;
             width: 100%;
@@ -217,6 +219,8 @@
             grid-row-gap: 20px;
             width: 100%;
         }
+
+        
     
     }
     
