@@ -21,23 +21,29 @@
 .login{
     padding: 0px;
 }
-.login-image{
-    width: 100%;
 
+.login-image{
+    width: 500%;
 }
+
 .login-container{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
     margin-top: 200px;
     margin-bottom: 200px;
+}
+
+.login-container img {
+    width: 40%;
+    border-radius: 20px;
 }
 
 
 
 .login-image img{
-    width: 100%;
+    width: 50%;
     border-radius: 20px;
     
 }
