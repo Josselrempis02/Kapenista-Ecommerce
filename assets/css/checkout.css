@@ -1,86 +1,61 @@
-.checkout-container {
-    width: 46%;
-    
-    padding: 24px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-table {
-    table-layout: fixed;
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin: 0 0 24px 0;
+:root{
+    --primary: white;
+    --text: black;
+    --hover: #DB975F;
+    --red: #F84E4E;
+    --green: #009406;
+    --background-color: #e2e2e2;
+
+}
+
+.table-container{
     width: 100%;
+   
 }
 
-.tr-border th{
-    font-weight: bold;
+.table-container{
+    background-color: transparent;
+   
 }
 
-.checkout-review-order-table table th{
-    border: none;
-    padding: 6px 0;
-}
-.checkout-review-order-table  table td{
-    border-bottom: 1px solid #e0e0e0;
-    padding: 18px 0;
-}
-
-.product-total{
-    text-align: right;
-}
-
-.tr-border{
-    border: none;
-    text-align: left
-}
-
-.tr-border th{
-    font-weight: 700;
-}
-
-.tfoot th{
+.table-container h1{
     text-align: left;
-}
-
-.cart-subtotal-checkout {
-    text-align: right;
-}
-
-.tfoot td{
-    text-align: right;
-    font-weight: 400;
-}
-
-.order-total span{
-    font-size: 25px;
+    font-family: "Playfair Display", serif;
     font-weight: 700;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 0;
+   
 }
 
-.checkout-container table th{
-    border: none;
-}
-
-.checkout-container table tr{
-    border: none;
-}
-
-.checkout-container table td{
-    border: none;
-}
-
-
-.checkout-container label{
-    font-weight: 600;
+.total-price td {
+    border-bottom: 1px solid #c1c1c1;
+   
 }
 
 .payment{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    font-weight: 700;
+    padding: 20px;
 }
 
+
+.cart-btn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 20px
+}
 
 .checkout-btn{
     
@@ -100,4 +75,52 @@ table {
     background-color: var(--hover);
     color: var(--primary);
 
+}
+
+
+.payment {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    
+    border: 1px solid;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+    background-color: var(--text);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.product-row{
+    color: #5e5c5c;
+    font-weight: 300;
 }

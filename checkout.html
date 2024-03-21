@@ -43,113 +43,87 @@
     <!-- Header-Section-Ends -->
 
     <!-- cart-section-starts -->
-
     <section class="cart" id="cart">
-        <h1 class="page-title">Checkout</h1>
-        <form action="">
-        <table class="cart-table">
-            <thead>
-                <tr>
-                   <th class="cart-remove">
-                    <span class="screen-reader-text">remove</span>
-                   </th>
-                   <th class="cart-thumbnail">
-                    <span class="screen-reader-text">thumbnail</span>
-                   </th>
-                   <th class="cart-name">product</th>
-                   <th class="cart-price">price</th>
-                   <th class="cart-quantity">quantity</th>
-                   <th class="cart-subtotal">
-                    subtotal
-                   </th>
-                </tr>
-            </thead>
+        <h1 class="page-title">Cart</h1>
 
-            <tbody>
-                <tr class="cart-item">
-                    <td class="cart-remove">
-                        <a href=""><i class='bx bx-x'></i></a>
-                    </td>
-                    <td class="cart-thumbnail">
-                        <img src="assets/img/menu3.png" alt="">
-                    </td>
-                    <td class="cart-name">
-                        <span>Cafe Latte</span>
-                    </td>
-                    <td class="cart-price">
-                        <span>₱120</span>
-                    </td>
-                    <td class="cart-quantity">
-                        <div class="cart-quantity-container">
-                            <input type="number" value="1" min="1" max="1" id="">
-                        </div>
-                    </td>
-                    <td class="cart-subtotal">
-                        <span>₱120</span>
-                    </td>
-                </tr>
-                <tr></tr>
-            </tbody>
-        </table>
-    </form>
+            <div class="small-container cart-page">
 
-   
-        <div class="checkout-container">
-            <h1 class="page-title">Your Order</h1>
-            <table class="checkout-review-order-table">
-                <thead>
-                    <tr class="tr-border">
-                        <th class="cart-name">Product</th>
-                        <th class="cart-subtotal-checkout">Subtotal</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="cart_item">
-                        <td class="product-name">
-                            Cafe latte
-                            <strong class="product-quantity">×&nbsp;1</strong>
-                        </td>
-                        <td class="product-total">
-                            <span>₱120</span>
-                        </td>
-                    </tr>
-                </tbody>
-
-                <tfoot class="tfoot">
-                    <tr class="cart-subtotal">
+                <table>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
                         <th>Subtotal</th>
+                    </tr>
+                    <tr>
                         <td>
-                            <span>₱120</span>
+                            <div class="cart-info">
+                                <img src="assets/img/menu3.png" alt="">
+                                <div>
+                                    <p>Caffe Latte</p>
+                                    <a href="">remove</a>
+                                </div>
+                            </div>
                         </td>
+                        <td><span class="Quantity-num">1</span></td>
+                        <td>₱120</td>
+                    </tr>
+
+                    
+                </table>
+
+                <div class="total-price cart-price">
+                   
+                    <div class="table-container">
+                        <h1>Your Order</h1>
+                    <table>
                         
-                    </tr>
-                    <tr class="order-total">
-                        <th>Total</th>
-                        <td>
-                            <span>₱120</span>
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-            <div class="payment">
-            <input type="checkbox" id="gcash" name="payment[]" value="gcash">
-            <label for="gcash">GCash</label><br>
-
-            <input type="checkbox" id="cod" name="payment[]" value="cod">
-            <label for="cod">Cash on Delivery (COD)</label><br>
-        </div>
-
-            <div class="cart-btn">
-                <a href="" class="checkout-btn">Place order</a>
-            </div>
-            
-
-            
-            
-        </div>
-        
-  
+                        <tr>
+                            
+                            <td>Product</td>
+                            <td>Subtotal</td>
+                            
+                        </tr>
     
+                        <tr class="product-row">
+                            <td>Cafe Latte</td>
+                            <td>₱120</td>
+                        </tr>
+
+                        <tr>
+                            <td>Total</td>
+                            <td>₱120</td>
+                        </tr>
+                        
+                    </table>
+
+                    <div class="payment">
+                        <label class="checkbox-container">Gcash
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="checkbox-container">COD
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <div class="cart-btn">
+                      
+                        <a href="checkout.html" class="checkout-btn">Place order</a>
+                    </div>
+
+                </div>
+                </div>
+    
+                </div>
+    
+
+
+
+            </div>
+
+            
+
     </section>
 
     <!-- cart-section-ends -->
