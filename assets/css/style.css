@@ -288,23 +288,25 @@ header.sticky{
     font-family: "Playfair Display", serif;
 }
 
-.button1 {
+.order-btn a {
     display: block;
     margin: 30px auto;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: capitalize;
     border-radius: 66px ;
     padding: 20px 20px 20px 20px;
     width: 250px;
     background-color: transparent;
     border: solid 2px var(--hover);
+    text-align: center;
   }
 
   
-.button1:hover{
+  .order-btn a:hover{
     background-color: var(--hover);
     color: var(--primary);
 }
+
 
 
 /* menu-css-ends */
