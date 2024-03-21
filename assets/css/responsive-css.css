@@ -61,6 +61,15 @@
         font-size: 14px;
     }
 
+    .login-form-container {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        padding: 0;
+    }
+
     .login-container img {
         display: none;
     }
