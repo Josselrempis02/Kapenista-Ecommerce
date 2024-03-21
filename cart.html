@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kapenista</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/cart.css">
-    <link rel="stylesheet" href="assets/css/checkout.css">
+    <link rel="stylesheet" href="assets/css/cart.css"> 
     <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/responsive-css.css">
    
@@ -46,81 +45,96 @@
 
     <section class="cart" id="cart">
         <h1 class="page-title">Cart</h1>
-        <form action="">
-        <table class="cart-table">
-            <thead>
-                <tr>
-                   <th class="cart-remove">
-                    <span class="screen-reader-text">remove</span>
-                   </th>
-                   <th class="cart-thumbnail">
-                    <span class="screen-reader-text">thumbnail</span>
-                   </th>
-                   <th class="cart-name">product</th>
-                   <th class="cart-price">price</th>
-                   <th class="cart-quantity">quantity</th>
-                   <th class="cart-subtotal">
-                    subtotal
-                   </th>
-                </tr>
-            </thead>
 
-            <tbody>
-                <tr class="cart-item">
-                    <td class="cart-remove">
-                        <a href=""><i class='bx bx-x'></i></a>
-                    </td>
-                    <td class="cart-thumbnail">
-                        <img src="assets/img/menu3.png" alt="">
-                    </td>
-                    <td class="cart-name">
-                        <span>Cafe Latte</span>
-                    </td>
-                    <td class="cart-price">
-                        <span>₱120</span>
-                    </td>
-                    <td class="cart-quantity">
-                        <div class="cart-quantity-container">
-                            <input type="number" value="1" min="1" id="">
-                        </div>
-                    </td>
-                    <td class="cart-subtotal">
-                        <span>₱120</span>
-                    </td>
-                </tr>
-                <tr></tr>
-            </tbody>
-        </table>
-    </form>
+            <div class="small-container cart-page">
 
-    <div class="cart-container">
-        <div class="cart-totals">
-            <h2>Cart Totals</h2>
-
-            <table>
-                <tbody>
-                    <tr class="cart-container-subtotal">
+                <table>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
                         <th>Subtotal</th>
-                        <td class="cart-container-price">
-                            <span>₱120</span>
-                        </td>
                     </tr>
-                    <tr class="cart-subtotal">
-                        <th>Total</th>
-                        <td class="cart-order-amount">
-                            <span>₱120</span>
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="assets/img/menu3.png" alt="">
+                                <div>
+                                    <p>Caffe Latte</p>
+                                    <a href="">remove</a>
+                                </div>
+                            </div>
                         </td>
+                        <td><input type="number" value="1"></td>
+                        <td>₱120</td>
                     </tr>
-                </tbody>
-            </table>
-            <div class="cart-btn">
-                <a href="" class="cancel-btn">cancel order</a>
-                <a href="checkout.html" class="checkout-btn">Proceed to checkout</a>
-            </div>
-        </div>
-    </div>
+
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="assets/img/menu3.png" alt="">
+                                <div>
+                                    <p>Caffe Latte</p>
+                                    <a href="">remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>₱120</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="assets/img/menu3.png" alt="">
+                                <div>
+                                    <p>Caffe Latte</p>
+                                    <a href="">remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>₱120</td>
+                    </tr>
+                </table>
+
+                <div class="total-price cart-price">
+                   
+                    <div class="table-container">
+                        <h1>Cart Total</h1>
+                    <table>
+                        
+                        <tr>
+                            
+                            <td>Subtotal</td>
+                            <td>₱120</td>
+                        </tr>
     
+                        <tr>
+                            <td>total</td>
+                            <td>₱120</td>
+                        </tr>
+                        
+                    </table>
+
+                    <div class="cart-btn">
+                        <a href="" class="cancel-btn">cancel order</a>
+                        <a href="checkout.html" class="checkout-btn">Proceed to checkout</a>
+                    </div>
+
+                </div>
+                </div>
+    
+                </div>
+    
+
+
+
+            </div>
+
+            
+
     </section>
+    
 
     <!-- cart-section-ends -->
     
