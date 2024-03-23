@@ -29,10 +29,24 @@ margin-bottom: 100px;
 }
 
 
+
+
 .status-btn a{
+    display: inline-block;
     border: 1px solid var(--green);
     padding: 10px;
     border-radius: 10px;
     background-color: var(--green);
     color: var(--primary);
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+@media (max-width: 480px){
+    td img{
+        display: none;
+        
+        
+    }
+    
 }

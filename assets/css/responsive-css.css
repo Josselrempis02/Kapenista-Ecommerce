@@ -35,6 +35,14 @@
         gap: 20px;
         width: 80%;
     }
+
+    td p {
+        padding-left: 0;
+    }
+
+    td a {
+        padding-left: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -230,6 +238,18 @@
         padding: 3rem 0 0 0;
     }
 
+    .my-account-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    .small-container {
+        width: 100%;
+        padding: 0;
+    }
+
 }
 
 @media (max-width: 630px) {
@@ -262,6 +282,15 @@
     td img {
         width: 20vw;
         margin-right: 10px;
+    }
+
+    .my-account-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 100px;
+        
+        
     }
 }
 
@@ -303,6 +332,7 @@
 
     td p {
         font-size: 16px;
+
     }
 }
 
@@ -333,4 +363,8 @@
     section {
         padding: 5% 5%;
     }
+
+    
+    
+    
 }
