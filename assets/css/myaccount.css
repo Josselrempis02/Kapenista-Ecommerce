@@ -55,13 +55,15 @@
    color: var(--hover);
 } */
 
-.my-account-management a:active {
-    color: var(--hover);
- }
+.my-account-management a:hover{
+    color: #DB975F;
+}
 
- .my-account-management a:focus {
-    color: var(--hover);
- }
+.my-account-management a:active{
+    color: #DB975F;
+}
+
+ 
 
 
  .my-account-profile-edit{

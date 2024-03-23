@@ -18,6 +18,10 @@
     --background-color: #e2e2e2;
 
 }
+
+
+
+
 /* Header-css-starts  */
 header{
     position: fixed;
@@ -386,13 +390,14 @@ form h3{
 /* footer-css-starts */
 .footer{
     background-color: var(--background-color);
-    
+    display: block;
     
 }
 .footer-info{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, auto));
     gap: 3rem;
+    
 }
 
 .first-info img{
