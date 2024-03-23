@@ -42,6 +42,10 @@ margin-bottom: 100px;
     white-space: nowrap;
 }
 
+
+td img{
+    display: none;
+}
 @media (max-width: 480px){
     td img{
         display: none;
