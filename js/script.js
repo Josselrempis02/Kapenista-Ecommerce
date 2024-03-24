@@ -19,3 +19,5 @@ document.getElementById('myText').addEventListener('click', function() {
     this.classList.add('clicked');
   });
   
+
+
