@@ -265,6 +265,7 @@ header.sticky{
 
 .row img{
     width: 100%;
+    max-width: 350px;
     height: auto;
     transition:  all .40s;
     border-radius: 10px;
