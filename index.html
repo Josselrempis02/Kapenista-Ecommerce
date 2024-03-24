@@ -13,8 +13,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    
 </head>
 <body>
+
+      <!-- Spinner overlay -->
+      <div class="spinner-overlay">
+        <div class="spinner"></div>
+    </div>
+    
     <!-- Header-Section-Starts -->
 
     <header>
@@ -40,7 +48,17 @@
     <!-- Header-Section-Ends -->
 
     <!-- Main-Section-Starts -->
+
+    
+        
+    
+
     <section class="main-home">
+
+        
+
+       
+        
         <div class="main-text">
             <h5>Kapenista</h5>
             <h1>Coffee and Chill</h1>
@@ -222,5 +240,13 @@
         <p>Copyright © @2023 Kapenista. All Rights Reserved. </p>
     </div>
     <script src="js/script.js"></script>
+    <script>
+         setTimeout(function() {
+            document.querySelector('.spinner-overlay').style.opacity = '0'; // Set opacity to 0
+            setTimeout(function() {
+                document.querySelector('.spinner-overlay').style.display = 'none'; // Hide the spinner overlay after transition
+            }, 500); // Wait for the transition to complete (500 milliseconds = 0.5 seconds)
+        }, 1000); // 5000 mi
+    </script>
 </body>
 </html>
